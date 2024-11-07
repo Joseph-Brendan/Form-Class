@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.023rem;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 34%;
+    height: auto;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+    border-radius:0.5rem;
+    border: 1px solid #d7d7d7;
+}
+
+.blue-line-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.logo-container{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.sign-in-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.sign-in-text-container h1{
+    font-size: 1.3rem;
+    color: #444;
+}
+
+.red-line-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.input-groups-and-button-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.25rem;
+}
+
+label{
+    font-size: 0.95rem;
+    color: #555;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 0.85rem 1rem 0.85rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #d7d7d7;
+    outline: none;
+}
+
+input:focus{
+    border: 1.5px solid blue;
+}
+
+.password-forgot-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.password-forgot-container a{
+    text-decoration: none;
+    color: blue;
+    font-size: 0.9rem;
+}
+
+.button-container{
+    width: 100%;
+    height: auto;
+}
+
+.button-container button{
+    width: 100%;
+    height: auto;
+    background-color: #4F46E5;
+    color: white;
+    font-weight: 600;
+    padding: 0.85rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.bottom-content-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.free-trial-container a{
+    text-decoration: none;
+    color: #4F46E5;
+    font-size: 0.95rem;
+}
